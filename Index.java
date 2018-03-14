@@ -12,7 +12,8 @@ public class Index{
     System.out.println("3. Methods");
     System.out.println("4. Shadowing");
     System.out.println("5. Overloading");
-    System.out.println("6. Exit");
+    System.out.println("6. FirstArray");
+    System.out.println("7. Exit");
 
     System.out.println();
 
@@ -46,6 +47,11 @@ public class Index{
         FirstSwitch.main(null);
         break;
       case 6:
+		System.out.println("FirstArray lab");
+	    System.out.println();
+	    FirstArray.main(null);
+        break;
+      case 7:
         System.out.println("Exiting....");
         break;
       default:
